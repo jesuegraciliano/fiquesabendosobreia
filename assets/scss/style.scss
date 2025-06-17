@@ -1,0 +1,21 @@
+/* assets/scss/style.scss */
+$primary-color: #3498db;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1 {
+  color: $primary-color;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-color;
+
+  &:hover {
+    color: darken($primary-color, 10%);
+  }
+}
