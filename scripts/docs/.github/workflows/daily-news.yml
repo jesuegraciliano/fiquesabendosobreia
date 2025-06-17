@@ -2,7 +2,7 @@ name: Daily News Workflow
 
 on:
   schedule:
-    - cron: '0 23 * * *'  # Executa às 23h UTC (20h Brasil)
+    - cron: '10 23 * * *'  # Executa às 23h UTC (20h10MIN Brasil)
   workflow_dispatch:  # Permite execução manual
 
 jobs:
