@@ -6,8 +6,8 @@ author: "Seu Nome"  # Substitua com seu nome
 sass:
   style: compressed
   load_paths:
-    - assets/scss
+    - assets/scss  # Ajuste para 'scss' em vez de 'css'
 
-# Configuração de base do Jekyll
+    # Configuração de base do Jekyll
 theme: minima  # Usando o tema Minima, mas pode mudar conforme o tema que estiver usando
 markdown: kramdown  # Configura o tipo de markdown para ser usado
