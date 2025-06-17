@@ -1,0 +1,13 @@
+title: My Jekyll Site  # Nome do seu site
+description: "Um site gerado com Jekyll"
+author: "Seu Nome"  # Substitua com seu nome
+
+# Definição do SCSS (caso esteja usando)
+sass:
+  style: compressed
+  load_paths:
+    - assets/scss
+
+# Configuração de base do Jekyll
+theme: minima  # Usando o tema Minima, mas pode mudar conforme o tema que estiver usando
+markdown: kramdown  # Configura o tipo de markdown para ser usado
